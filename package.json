@@ -1,0 +1,50 @@
+{
+  "name": "speechflow",
+  "version": "1.0.0",
+  "description": "SpeechFlow: A web-based chatbot application using Expo with speech recognition and text-to-speech capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo prebuild"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@gluestack-style/react": "^1.0.57",
+    "@gluestack-ui/themed": "^1.1.73",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.16",
+    "@react-navigation/stack": "^6.3.28",
+    "axios": "^1.6.7",
+    "expo": "^53.0.0",
+    "expo-speech": "~13.1.7",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0",
+    "lucide-react-native": "^0.287.0",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.0.10",
+    "@types/react-native": "~0.73.0",
+    "typescript": "^5.3.0"
+  },
+  "overrides": {
+    "react": "19.0.0"
+  },
+  "keywords": [
+    "chatbot",
+    "expo",
+    "speech recognition",
+    "text to speech"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
